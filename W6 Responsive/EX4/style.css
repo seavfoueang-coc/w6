@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+.wrapper {
+  position: relative;
+  display: grid;
+  min-height: 100vh;
+  padding: 30px;
+  place-items: center;
+  background: lightgray;
+}
+
+.green-box {
+  width: clamp(300px, 100%, 800px);
+  height: clamp(250px, 65vw, 530px);
+  background: lawngreen;
+}
+
+.message {
+  position: absolute;
+  padding: clamp(10px, 2vw, 18px);
+  color: white;
+  border-radius: 3px;
+}
+
+.small {
+  display: none;
+}
+
+.big {
+  display: inline;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+}
+  .green-box {
+    width: clamp(280px, 100%, 800px);
+  }
+
+  .message {
+    background: red;
+  }
+
+  .small {
+    display: inline;
+  }
+
+  .big {
+    display: none;
+  }
+
+

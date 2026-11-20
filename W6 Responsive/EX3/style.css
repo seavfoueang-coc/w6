@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header,
+footer {
+  padding: 18px;
+  color: white;
+  background: darkslategray;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  gap: 16px;
+}
+
+section,
+aside {
+  width: 100%;
+  padding: 20px;
+}
+
+section {
+  background: whitesmoke;
+}
+
+aside {
+  background: lightgray;
+}
+
